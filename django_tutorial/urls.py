@@ -23,5 +23,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("django_tutorial.apps.public.urls")),
     path("accounts/", include("django_tutorial.apps.accounts.urls")),
-    ]
-    
+]
+ 
